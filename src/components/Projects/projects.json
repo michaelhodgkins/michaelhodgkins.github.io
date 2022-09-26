@@ -3,17 +3,20 @@
         {
             "name": "Wobbly",
             "description": "React Application",
-            "image": "../../../public/images/Landing Page.png"
+            "image": "../../../images/Landing Page.png",
+            "link": ""
         },
         {
             "name": "Humble Gamer",
             "description": "Web based application to create and fav your games",
-            "image": "../../../public/images/Landing Page.png"
+            "image": "../../../images/humble-gamer.png",
+            "link": ""
         },
         {
             "name": "IntoTheVoid",
             "description": "First Project Created",
-            "image": ""
+            "image": "../../../images/into-the-void.png",
+            "link": ""
         }
     ]
 }

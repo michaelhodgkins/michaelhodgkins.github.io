@@ -11,7 +11,7 @@ function LandingPage() {
     <Avatar sx={{bgcolor: green[300]}}>MH</Avatar>
     <h2> Welcome to my Portfolio</h2>
 </Box>
-<Container className="projects">
+<Container sx={{display: 'flex', flexFlow: "row wrap", justifyContent: 'center'}}>
     <ProjectCards />
 
 </Container>
