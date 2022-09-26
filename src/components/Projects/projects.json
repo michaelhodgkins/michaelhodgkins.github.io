@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "name": "Wobbly",
+            "description": "React Application",
+            "image": "../../../public/images/Landing Page.png"
+        },
+        {
+            "name": "Humble Gamer",
+            "description": "Web based application to create and fav your games",
+            "image": "../../../public/images/Landing Page.png"
+        },
+        {
+            "name": "IntoTheVoid",
+            "description": "First Project Created",
+            "image": ""
+        }
+    ]
+}

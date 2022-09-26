@@ -29,7 +29,7 @@ export default function ResponsiveNav() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" sx={{borderBottom: 1}}>
         <Toolbar sx={{display: 'flex', justifyContent: 'flex-end', color: 'info'}}>
-          <Button color='info'>Projects</Button>
+          <Button color='info'> Extra Projects</Button>
           <Button color='info'> About Me</Button>
           <Button color='info'> Contact Me</Button>
         </Toolbar>
