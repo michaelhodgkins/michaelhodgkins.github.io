@@ -1,9 +1,12 @@
+
 function LandingPage() {
-    return (
-        <div>
-            <p>Hello</p>
-        </div>
     
+    return (
+      
+<div>
+    <p>Hello</p>
+</div>
+
 
     );
 }
