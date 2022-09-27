@@ -9,9 +9,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:darksalmon;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.inner {
+  position: fixed;
+  z-index: 1;
+}
+
+.zText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.zText2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

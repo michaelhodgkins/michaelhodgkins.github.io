@@ -10,6 +10,7 @@ function App() {
   return (
     <div className='App'>
       <ResponsiveNav />
+      <br></br>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/contact-me" element={<Contact />} />
