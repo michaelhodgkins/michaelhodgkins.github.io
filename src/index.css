@@ -1,6 +1,3 @@
-* {
-  margin: 2;
-}
 
 body {
   margin: 0;
@@ -15,21 +12,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.inner {
-  position: fixed;
-  z-index: 1;
-}
-
-.zText {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.zText2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
