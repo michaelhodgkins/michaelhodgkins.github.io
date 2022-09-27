@@ -1,8 +1,11 @@
+
+
 function Extra() {
     return (
      <div>
-   <p>Extra page</p>
-     </div>
+   <p>3D Projects Coming soon...</p>
+   <img src="images/javascript_illustration.png" alt="robot"></img>
+   </div>
     );
    }
    
