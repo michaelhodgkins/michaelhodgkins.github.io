@@ -10,10 +10,10 @@ export default function ProjectCards() {
     return data.projects.map((e) => {
   return (
     <div>
-    <Card sx={{ maxWidth: 650, boxShadow: 10}}>
+    <Card sx={{ boxShadow: 10, marginRight: 5}}>
       <CardMedia
         component="img"
-        height="350"
+        height="300"
         image={e.image}
         alt="project landing page"
       />

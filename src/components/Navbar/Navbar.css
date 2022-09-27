@@ -1,3 +1,11 @@
-Button {
-    color: 'info';
+.flexButtons {
+    display: 'inline-flex';
+    flex-wrap: 'wrap';
+    
+   
 }
+
+.flexButtons > Button {
+    margin-right: 10px;
+}
+

@@ -1,23 +1,9 @@
 * {
   text-align: center;
+  margin: 0;
 }
-
 
 .inner {
   position: fixed;
-  z-index: 1;
-}
-
-.zText {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  text-align: right;
-}
-
-.zText2 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
+ 
 }

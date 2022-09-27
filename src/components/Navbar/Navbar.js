@@ -8,13 +8,16 @@ import "./Navbar.css";
 const theme = createTheme({
     palette: {
         primary: {
-            main: "#A59AE6"
+            main: "#F8EDE3"
         },
         secondary: {
             main: "#F4F4F5"
         },
         info: {
-            main: "#000000"
+            main: "#FFFFFF"
+        },
+        hover: {
+          main: "#A084CA",
         }
     }
 
@@ -24,11 +27,12 @@ const theme = createTheme({
 export default function ResponsiveNav() {
   return (
     <ThemeProvider theme={theme}>
-    <Box>
-        <Button color='info'><Link style={{textDecoration: 'none', color: 'black'}} to="/"> Home</Link></Button>
-          <Button color='info'><Link style={{textDecoration: 'none', color: 'black'}} to="/extra-projects"> Extra Projects</Link></Button>
-          <Button color='info'><Link style={{textDecoration: 'none', color: 'black'}} to="/about"> About Me</Link></Button>
-          <Button color='info'><Link style={{textDecoration: 'none', color: 'black'}} to="/contact-me"> Contact Me</Link></Button>
+    <Box className='flexButtons'>
+      <br></br>
+        <Button sx={{backgroundColor: 'primary.main', boxShadow: 5, '&:hover': {backgroundColor: 'hover.main'}}}><Link style={{ color: 'black', textDecoration: 'none'}} to="/"> Home</Link></Button>
+          <Button sx={{backgroundColor: 'primary.main', boxShadow: 5, '&:hover': {backgroundColor: 'hover.main'}}}><Link style={{color: 'black', textDecoration: 'none'}} to="/extra-projects"> Extra Projects</Link></Button>
+          <Button sx={{backgroundColor: 'primary.main', boxShadow: 5, '&:hover': {backgroundColor: 'hover.main'}}}><Link style={{textDecoration: 'none', color: 'black'}} to="/about"> About Me</Link></Button>
+          <Button sx={{backgroundColor: 'primary.main', boxShadow: 5, '&:hover': {backgroundColor: 'hover.main'}}}><Link style={{textDecoration: 'none', color: 'black'}} to="/contact-me"> Contact Me</Link></Button>
     </Box>
     </ThemeProvider>
   );

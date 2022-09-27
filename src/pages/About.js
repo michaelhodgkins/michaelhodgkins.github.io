@@ -1,20 +1,16 @@
-import { Container} from "@mui/system";
+import { Avatar } from "@mui/material";
+import { Box} from "@mui/system";
 
 function About() {
     return (
-     <Container maxWidth="l">
-   <img src="images/day71-designer-tool-essential.png" alt="test1" align="left" width='50%'></img>
-   <img src="images/111-coding.png" alt="test2" align="right" width='50%'></img>
-     <h3 className="zText">I have a passion for design</h3>
-     <h3 className="zText2">I love to code and problem solve</h3>
-     <h3 className="zText">I grew up and live england</h3>
-     <h3 className="zText2">Trying to design uniquely</h3>
-     <h3 className="zText">Adapting previous designs</h3>
-     <h3 className="zText2">Own 200+ Books</h3>
-     <h3 className="zText">Googling is second nature to me</h3>
-     <h3 className="zText2">I love to learn new technologies and frameworks</h3>
+     <Box>
+      <Avatar sx={{bgcolor: 'red'}}>MH</Avatar>
+   <img src="images/day71-designer-tool-essential.png" alt="test1" align="right" width='25%'></img>
+     <img src="images/111-coding.png" alt="test2" align="left" width='25%'></img>
+
+     <article>I have a passion for designI have a passion for designI have a pas passion for designI have a passion for I have a passion for designI have a passion for designI have a for designI have a passion for design</article>
      <p>Footer</p>
-     </Container>
+     </Box>
     );
    }
    
